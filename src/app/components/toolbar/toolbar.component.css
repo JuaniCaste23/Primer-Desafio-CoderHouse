@@ -1,0 +1,25 @@
+.toolbar {
+  display: flex;
+  background-color: #F6EADE;
+  justify-content: flex-end;
+}
+
+.toolbar ul {
+  display: flex;
+  padding: 20px;
+}
+
+.toolbar ul li {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  font-size: 2.6rem;
+}
+
+.toolbar ul li:nth-child(3) {
+  color: rgb(36, 32, 32);
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  border: 2px solid rgb(2, 0, 0);
+}
